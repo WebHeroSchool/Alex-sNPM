@@ -1,6 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 
+const flag = 'blue';
+const size = 20;
+
 function App() {
   return (
     <div className="App">
@@ -9,8 +12,18 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>
+        <p style={{
+          color: flag,
+          fontSize: size + 30
+        }}>
           Alex's homework!
+        </p>
+        {20+30}
+        {true}
+        {undefined}
+        {null}
+        <p>
+        {size ? "Size is true" : "Size is false"}
         </p>
         <a
           className="App-link"
