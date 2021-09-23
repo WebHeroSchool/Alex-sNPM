@@ -1,0 +1,22 @@
+{
+  "name": "kek",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "say": "echo Hello World!",
+    "build": "mkdir build",
+    "delete": "rm -rd build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebHeroSchool/Alex-sNPM.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WebHeroSchool/Alex-sNPM/issues"
+  },
+  "homepage": "https://github.com/WebHeroSchool/Alex-sNPM#readme"
+}
