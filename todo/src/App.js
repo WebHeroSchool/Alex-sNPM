@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import { count, length } from './numers';
 
 const flag = 'blue';
 const size = 20;
@@ -18,6 +19,11 @@ function App() {
         }}>
           Alex's homework!
         </p>
+
+        <p>
+          count * length = {count * length};
+        </p>
+
         {20+30}
         {true}
         {undefined}
